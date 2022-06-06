@@ -1,0 +1,11 @@
+name: napari-MM-ome-reader
+display_name: napari MM ome reader
+contributions:
+  commands:
+    - id: napari-MM-ome-reader.get_reader
+      python_name: naparimmomereader._reader:napari_get_reader
+      title: Open data with napari MM ome reader  
+  readers:
+    - command: napari-MM-ome-reader.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.ome.tif']  

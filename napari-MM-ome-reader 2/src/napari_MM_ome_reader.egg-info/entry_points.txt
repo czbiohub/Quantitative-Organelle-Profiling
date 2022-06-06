@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-MM-ome-reader = naparimmomereader:napari.yaml
